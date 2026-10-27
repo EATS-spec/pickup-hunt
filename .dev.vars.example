@@ -1,0 +1,18 @@
+# Optional local runtime configuration. Copy to .dev.vars; keep real values out of Git.
+# npm run dev works without these: stock search is available and push remains disabled.
+SCHEDULE_CADENCE_MINUTES="60"
+
+# Header identity is trusted only when explicitly enabled behind the Sites proxy.
+# Leave false for local development and generic/self-hosted Workers.
+TRUST_SITES_IDENTITY="false"
+OWNER_EMAIL=""
+
+# SHA-256 of dedicated random credentials; use different values for each installation.
+UPDATER_TOKEN_HASH=""
+CALLBACK_TOKEN_HASH=""
+RATE_SALT=""
+
+# Optional Web Push: base64url P-256 public key, private JWK scalar, HTTPS/mailto contact.
+VAPID_PUBLIC_KEY=""
+VAPID_PRIVATE_KEY=""
+VAPID_SUBJECT=""

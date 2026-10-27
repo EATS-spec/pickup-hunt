@@ -1,0 +1,820 @@
+{
+  "version": 1,
+  "updatedAt": "2026-10-23T16:29:18.658Z",
+  "source": "https://www.apple.com/shop/buy-iphone",
+  "models": [
+    {
+      "id": "iphoneduo",
+      "name": "iPhone Duo",
+      "colors": [
+        "Star White",
+        "Night Sky"
+      ],
+      "storages": [
+        "256GB",
+        "512GB",
+        "1TB",
+        "2TB"
+      ],
+      "variants": [
+        {
+          "partNumber": "MK1E4LL/A",
+          "modelId": "iphoneduo",
+          "modelName": "iPhone Duo",
+          "color": "Star White",
+          "storage": "256GB",
+          "name": "iPhone Duo 256GB Star White",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-duo/7.6-inch-display-256gb-star-white-unlocked"
+        },
+        {
+          "partNumber": "MK1G4LL/A",
+          "modelId": "iphoneduo",
+          "modelName": "iPhone Duo",
+          "color": "Star White",
+          "storage": "512GB",
+          "name": "iPhone Duo 512GB Star White",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-duo/7.6-inch-display-512gb-star-white-unlocked"
+        },
+        {
+          "partNumber": "MK1J4LL/A",
+          "modelId": "iphoneduo",
+          "modelName": "iPhone Duo",
+          "color": "Star White",
+          "storage": "1TB",
+          "name": "iPhone Duo 1TB Star White",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-duo/7.6-inch-display-1tb-star-white-unlocked"
+        },
+        {
+          "partNumber": "MK1Q4LL/A",
+          "modelId": "iphoneduo",
+          "modelName": "iPhone Duo",
+          "color": "Star White",
+          "storage": "2TB",
+          "name": "iPhone Duo 2TB Star White",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-duo/7.6-inch-display-2tb-star-white-unlocked"
+        },
+        {
+          "partNumber": "MK1F4LL/A",
+          "modelId": "iphoneduo",
+          "modelName": "iPhone Duo",
+          "color": "Night Sky",
+          "storage": "256GB",
+          "name": "iPhone Duo 256GB Night Sky",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-duo/7.6-inch-display-256gb-night-sky-unlocked"
+        },
+        {
+          "partNumber": "MK1H4LL/A",
+          "modelId": "iphoneduo",
+          "modelName": "iPhone Duo",
+          "color": "Night Sky",
+          "storage": "512GB",
+          "name": "iPhone Duo 512GB Night Sky",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-duo/7.6-inch-display-512gb-night-sky-unlocked"
+        },
+        {
+          "partNumber": "MK1L4LL/A",
+          "modelId": "iphoneduo",
+          "modelName": "iPhone Duo",
+          "color": "Night Sky",
+          "storage": "1TB",
+          "name": "iPhone Duo 1TB Night Sky",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-duo/7.6-inch-display-1tb-night-sky-unlocked"
+        },
+        {
+          "partNumber": "MK1R4LL/A",
+          "modelId": "iphoneduo",
+          "modelName": "iPhone Duo",
+          "color": "Night Sky",
+          "storage": "2TB",
+          "name": "iPhone Duo 2TB Night Sky",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-duo/7.6-inch-display-2tb-night-sky-unlocked"
+        }
+      ]
+    },
+    {
+      "id": "iphone18pro",
+      "name": "iPhone 18 Pro",
+      "colors": [
+        "Burgundy",
+        "Glacier",
+        "Silver",
+        "Black"
+      ],
+      "storages": [
+        "256GB",
+        "512GB",
+        "1TB",
+        "2TB"
+      ],
+      "variants": [
+        {
+          "partNumber": "MJQ54LL/A",
+          "modelId": "iphone18pro",
+          "modelName": "iPhone 18 Pro",
+          "color": "Burgundy",
+          "storage": "256GB",
+          "name": "iPhone 18 Pro 256GB Burgundy",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-18-pro/6.3-inch-display-256gb-burgundy-unlocked"
+        },
+        {
+          "partNumber": "MJQ94LL/A",
+          "modelId": "iphone18pro",
+          "modelName": "iPhone 18 Pro",
+          "color": "Burgundy",
+          "storage": "512GB",
+          "name": "iPhone 18 Pro 512GB Burgundy",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-18-pro/6.3-inch-display-512gb-burgundy-unlocked"
+        },
+        {
+          "partNumber": "MJQE4LL/A",
+          "modelId": "iphone18pro",
+          "modelName": "iPhone 18 Pro",
+          "color": "Burgundy",
+          "storage": "1TB",
+          "name": "iPhone 18 Pro 1TB Burgundy",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-18-pro/6.3-inch-display-1tb-burgundy-unlocked"
+        },
+        {
+          "partNumber": "MJQJ4LL/A",
+          "modelId": "iphone18pro",
+          "modelName": "iPhone 18 Pro",
+          "color": "Burgundy",
+          "storage": "2TB",
+          "name": "iPhone 18 Pro 2TB Burgundy",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-18-pro/6.3-inch-display-2tb-burgundy-unlocked"
+        },
+        {
+          "partNumber": "MJQ64LL/A",
+          "modelId": "iphone18pro",
+          "modelName": "iPhone 18 Pro",
+          "color": "Glacier",
+          "storage": "256GB",
+          "name": "iPhone 18 Pro 256GB Glacier",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-18-pro/6.3-inch-display-256gb-glacier-unlocked"
+        },
+        {
+          "partNumber": "MJQA4LL/A",
+          "modelId": "iphone18pro",
+          "modelName": "iPhone 18 Pro",
+          "color": "Glacier",
+          "storage": "512GB",
+          "name": "iPhone 18 Pro 512GB Glacier",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-18-pro/6.3-inch-display-512gb-glacier-unlocked"
+        },
+        {
+          "partNumber": "MJQF4LL/A",
+          "modelId": "iphone18pro",
+          "modelName": "iPhone 18 Pro",
+          "color": "Glacier",
+          "storage": "1TB",
+          "name": "iPhone 18 Pro 1TB Glacier",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-18-pro/6.3-inch-display-1tb-glacier-unlocked"
+        },
+        {
+          "partNumber": "MJQK4LL/A",
+          "modelId": "iphone18pro",
+          "modelName": "iPhone 18 Pro",
+          "color": "Glacier",
+          "storage": "2TB",
+          "name": "iPhone 18 Pro 2TB Glacier",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-18-pro/6.3-inch-display-2tb-glacier-unlocked"
+        },
+        {
+          "partNumber": "MJQ44LL/A",
+          "modelId": "iphone18pro",
+          "modelName": "iPhone 18 Pro",
+          "color": "Silver",
+          "storage": "256GB",
+          "name": "iPhone 18 Pro 256GB Silver",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-18-pro/6.3-inch-display-256gb-silver-unlocked"
+        },
+        {
+          "partNumber": "MJQ84LL/A",
+          "modelId": "iphone18pro",
+          "modelName": "iPhone 18 Pro",
+          "color": "Silver",
+          "storage": "512GB",
+          "name": "iPhone 18 Pro 512GB Silver",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-18-pro/6.3-inch-display-512gb-silver-unlocked"
+        },
+        {
+          "partNumber": "MJQD4LL/A",
+          "modelId": "iphone18pro",
+          "modelName": "iPhone 18 Pro",
+          "color": "Silver",
+          "storage": "1TB",
+          "name": "iPhone 18 Pro 1TB Silver",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-18-pro/6.3-inch-display-1tb-silver-unlocked"
+        },
+        {
+          "partNumber": "MJQH4LL/A",
+          "modelId": "iphone18pro",
+          "modelName": "iPhone 18 Pro",
+          "color": "Silver",
+          "storage": "2TB",
+          "name": "iPhone 18 Pro 2TB Silver",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-18-pro/6.3-inch-display-2tb-silver-unlocked"
+        },
+        {
+          "partNumber": "MJQ34LL/A",
+          "modelId": "iphone18pro",
+          "modelName": "iPhone 18 Pro",
+          "color": "Black",
+          "storage": "256GB",
+          "name": "iPhone 18 Pro 256GB Black",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-18-pro/6.3-inch-display-256gb-black-unlocked"
+        },
+        {
+          "partNumber": "MJQ74LL/A",
+          "modelId": "iphone18pro",
+          "modelName": "iPhone 18 Pro",
+          "color": "Black",
+          "storage": "512GB",
+          "name": "iPhone 18 Pro 512GB Black",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-18-pro/6.3-inch-display-512gb-black-unlocked"
+        },
+        {
+          "partNumber": "MJQC4LL/A",
+          "modelId": "iphone18pro",
+          "modelName": "iPhone 18 Pro",
+          "color": "Black",
+          "storage": "1TB",
+          "name": "iPhone 18 Pro 1TB Black",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-18-pro/6.3-inch-display-1tb-black-unlocked"
+        },
+        {
+          "partNumber": "MJQG4LL/A",
+          "modelId": "iphone18pro",
+          "modelName": "iPhone 18 Pro",
+          "color": "Black",
+          "storage": "2TB",
+          "name": "iPhone 18 Pro 2TB Black",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-18-pro/6.3-inch-display-2tb-black-unlocked"
+        }
+      ]
+    },
+    {
+      "id": "iphone18promax",
+      "name": "iPhone 18 Pro Max",
+      "colors": [
+        "Burgundy",
+        "Glacier",
+        "Silver",
+        "Black"
+      ],
+      "storages": [
+        "256GB",
+        "512GB",
+        "1TB",
+        "2TB"
+      ],
+      "variants": [
+        {
+          "partNumber": "MJW64LL/A",
+          "modelId": "iphone18promax",
+          "modelName": "iPhone 18 Pro Max",
+          "color": "Burgundy",
+          "storage": "256GB",
+          "name": "iPhone 18 Pro Max 256GB Burgundy",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-18-pro/6.9-inch-display-256gb-burgundy-unlocked"
+        },
+        {
+          "partNumber": "MJWA4LL/A",
+          "modelId": "iphone18promax",
+          "modelName": "iPhone 18 Pro Max",
+          "color": "Burgundy",
+          "storage": "512GB",
+          "name": "iPhone 18 Pro Max 512GB Burgundy",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-18-pro/6.9-inch-display-512gb-burgundy-unlocked"
+        },
+        {
+          "partNumber": "MJWF4LL/A",
+          "modelId": "iphone18promax",
+          "modelName": "iPhone 18 Pro Max",
+          "color": "Burgundy",
+          "storage": "1TB",
+          "name": "iPhone 18 Pro Max 1TB Burgundy",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-18-pro/6.9-inch-display-1tb-burgundy-unlocked"
+        },
+        {
+          "partNumber": "MJWK4LL/A",
+          "modelId": "iphone18promax",
+          "modelName": "iPhone 18 Pro Max",
+          "color": "Burgundy",
+          "storage": "2TB",
+          "name": "iPhone 18 Pro Max 2TB Burgundy",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-18-pro/6.9-inch-display-2tb-burgundy-unlocked"
+        },
+        {
+          "partNumber": "MJW74LL/A",
+          "modelId": "iphone18promax",
+          "modelName": "iPhone 18 Pro Max",
+          "color": "Glacier",
+          "storage": "256GB",
+          "name": "iPhone 18 Pro Max 256GB Glacier",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-18-pro/6.9-inch-display-256gb-glacier-unlocked"
+        },
+        {
+          "partNumber": "MJWC4LL/A",
+          "modelId": "iphone18promax",
+          "modelName": "iPhone 18 Pro Max",
+          "color": "Glacier",
+          "storage": "512GB",
+          "name": "iPhone 18 Pro Max 512GB Glacier",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-18-pro/6.9-inch-display-512gb-glacier-unlocked"
+        },
+        {
+          "partNumber": "MJWG4LL/A",
+          "modelId": "iphone18promax",
+          "modelName": "iPhone 18 Pro Max",
+          "color": "Glacier",
+          "storage": "1TB",
+          "name": "iPhone 18 Pro Max 1TB Glacier",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-18-pro/6.9-inch-display-1tb-glacier-unlocked"
+        },
+        {
+          "partNumber": "MJWL4LL/A",
+          "modelId": "iphone18promax",
+          "modelName": "iPhone 18 Pro Max",
+          "color": "Glacier",
+          "storage": "2TB",
+          "name": "iPhone 18 Pro Max 2TB Glacier",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-18-pro/6.9-inch-display-2tb-glacier-unlocked"
+        },
+        {
+          "partNumber": "MJW54LL/A",
+          "modelId": "iphone18promax",
+          "modelName": "iPhone 18 Pro Max",
+          "color": "Silver",
+          "storage": "256GB",
+          "name": "iPhone 18 Pro Max 256GB Silver",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-18-pro/6.9-inch-display-256gb-silver-unlocked"
+        },
+        {
+          "partNumber": "MJW94LL/A",
+          "modelId": "iphone18promax",
+          "modelName": "iPhone 18 Pro Max",
+          "color": "Silver",
+          "storage": "512GB",
+          "name": "iPhone 18 Pro Max 512GB Silver",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-18-pro/6.9-inch-display-512gb-silver-unlocked"
+        },
+        {
+          "partNumber": "MJWE4LL/A",
+          "modelId": "iphone18promax",
+          "modelName": "iPhone 18 Pro Max",
+          "color": "Silver",
+          "storage": "1TB",
+          "name": "iPhone 18 Pro Max 1TB Silver",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-18-pro/6.9-inch-display-1tb-silver-unlocked"
+        },
+        {
+          "partNumber": "MJWJ4LL/A",
+          "modelId": "iphone18promax",
+          "modelName": "iPhone 18 Pro Max",
+          "color": "Silver",
+          "storage": "2TB",
+          "name": "iPhone 18 Pro Max 2TB Silver",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-18-pro/6.9-inch-display-2tb-silver-unlocked"
+        },
+        {
+          "partNumber": "MJW44LL/A",
+          "modelId": "iphone18promax",
+          "modelName": "iPhone 18 Pro Max",
+          "color": "Black",
+          "storage": "256GB",
+          "name": "iPhone 18 Pro Max 256GB Black",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-18-pro/6.9-inch-display-256gb-black-unlocked"
+        },
+        {
+          "partNumber": "MJW84LL/A",
+          "modelId": "iphone18promax",
+          "modelName": "iPhone 18 Pro Max",
+          "color": "Black",
+          "storage": "512GB",
+          "name": "iPhone 18 Pro Max 512GB Black",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-18-pro/6.9-inch-display-512gb-black-unlocked"
+        },
+        {
+          "partNumber": "MJWD4LL/A",
+          "modelId": "iphone18promax",
+          "modelName": "iPhone 18 Pro Max",
+          "color": "Black",
+          "storage": "1TB",
+          "name": "iPhone 18 Pro Max 1TB Black",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-18-pro/6.9-inch-display-1tb-black-unlocked"
+        },
+        {
+          "partNumber": "MJWH4LL/A",
+          "modelId": "iphone18promax",
+          "modelName": "iPhone 18 Pro Max",
+          "color": "Black",
+          "storage": "2TB",
+          "name": "iPhone 18 Pro Max 2TB Black",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-18-pro/6.9-inch-display-2tb-black-unlocked"
+        }
+      ]
+    },
+    {
+      "id": "iphoneair",
+      "name": "iPhone Air",
+      "colors": [
+        "Sky Blue",
+        "Cloud White",
+        "Space Black",
+        "Light Gold"
+      ],
+      "storages": [
+        "256GB",
+        "512GB",
+        "1TB"
+      ],
+      "variants": [
+        {
+          "partNumber": "MG1D4LL/A",
+          "modelId": "iphoneair",
+          "modelName": "iPhone Air",
+          "color": "Sky Blue",
+          "storage": "256GB",
+          "name": "iPhone Air 256GB Sky Blue",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-air/6.5-inch-display-256gb-sky-blue-unlocked"
+        },
+        {
+          "partNumber": "MG1J4LL/A",
+          "modelId": "iphoneair",
+          "modelName": "iPhone Air",
+          "color": "Sky Blue",
+          "storage": "512GB",
+          "name": "iPhone Air 512GB Sky Blue",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-air/6.5-inch-display-512gb-sky-blue-unlocked"
+        },
+        {
+          "partNumber": "MG1Q4LL/A",
+          "modelId": "iphoneair",
+          "modelName": "iPhone Air",
+          "color": "Sky Blue",
+          "storage": "1TB",
+          "name": "iPhone Air 1TB Sky Blue",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-air/6.5-inch-display-1tb-sky-blue-unlocked"
+        },
+        {
+          "partNumber": "MG194LL/A",
+          "modelId": "iphoneair",
+          "modelName": "iPhone Air",
+          "color": "Cloud White",
+          "storage": "256GB",
+          "name": "iPhone Air 256GB Cloud White",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-air/6.5-inch-display-256gb-cloud-white-unlocked"
+        },
+        {
+          "partNumber": "MG1G4LL/A",
+          "modelId": "iphoneair",
+          "modelName": "iPhone Air",
+          "color": "Cloud White",
+          "storage": "512GB",
+          "name": "iPhone Air 512GB Cloud White",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-air/6.5-inch-display-512gb-cloud-white-unlocked"
+        },
+        {
+          "partNumber": "MG1N4LL/A",
+          "modelId": "iphoneair",
+          "modelName": "iPhone Air",
+          "color": "Cloud White",
+          "storage": "1TB",
+          "name": "iPhone Air 1TB Cloud White",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-air/6.5-inch-display-1tb-cloud-white-unlocked"
+        },
+        {
+          "partNumber": "MG184LL/A",
+          "modelId": "iphoneair",
+          "modelName": "iPhone Air",
+          "color": "Space Black",
+          "storage": "256GB",
+          "name": "iPhone Air 256GB Space Black",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-air/6.5-inch-display-256gb-space-black-unlocked"
+        },
+        {
+          "partNumber": "MG1E4LL/A",
+          "modelId": "iphoneair",
+          "modelName": "iPhone Air",
+          "color": "Space Black",
+          "storage": "512GB",
+          "name": "iPhone Air 512GB Space Black",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-air/6.5-inch-display-512gb-space-black-unlocked"
+        },
+        {
+          "partNumber": "MG1L4LL/A",
+          "modelId": "iphoneair",
+          "modelName": "iPhone Air",
+          "color": "Space Black",
+          "storage": "1TB",
+          "name": "iPhone Air 1TB Space Black",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-air/6.5-inch-display-1tb-space-black-unlocked"
+        },
+        {
+          "partNumber": "MG1A4LL/A",
+          "modelId": "iphoneair",
+          "modelName": "iPhone Air",
+          "color": "Light Gold",
+          "storage": "256GB",
+          "name": "iPhone Air 256GB Light Gold",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-air/6.5-inch-display-256gb-light-gold-unlocked"
+        },
+        {
+          "partNumber": "MG1H4LL/A",
+          "modelId": "iphoneair",
+          "modelName": "iPhone Air",
+          "color": "Light Gold",
+          "storage": "512GB",
+          "name": "iPhone Air 512GB Light Gold",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-air/6.5-inch-display-512gb-light-gold-unlocked"
+        },
+        {
+          "partNumber": "MG1P4LL/A",
+          "modelId": "iphoneair",
+          "modelName": "iPhone Air",
+          "color": "Light Gold",
+          "storage": "1TB",
+          "name": "iPhone Air 1TB Light Gold",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-air/6.5-inch-display-1tb-light-gold-unlocked"
+        }
+      ]
+    },
+    {
+      "id": "iphone17",
+      "name": "iPhone 17",
+      "colors": [
+        "Lavender",
+        "Mist Blue",
+        "White",
+        "Sage",
+        "Black"
+      ],
+      "storages": [
+        "256GB",
+        "512GB"
+      ],
+      "variants": [
+        {
+          "partNumber": "MG494LL/A",
+          "modelId": "iphone17",
+          "modelName": "iPhone 17",
+          "color": "Lavender",
+          "storage": "256GB",
+          "name": "iPhone 17 256GB Lavender",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-17/6.3-inch-display-256gb-lavender-unlocked"
+        },
+        {
+          "partNumber": "MG4J4LL/A",
+          "modelId": "iphone17",
+          "modelName": "iPhone 17",
+          "color": "Lavender",
+          "storage": "512GB",
+          "name": "iPhone 17 512GB Lavender",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-17/6.3-inch-display-512gb-lavender-unlocked"
+        },
+        {
+          "partNumber": "MG484LL/A",
+          "modelId": "iphone17",
+          "modelName": "iPhone 17",
+          "color": "Mist Blue",
+          "storage": "256GB",
+          "name": "iPhone 17 256GB Mist Blue",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-17/6.3-inch-display-256gb-mist-blue-unlocked"
+        },
+        {
+          "partNumber": "MG4H4LL/A",
+          "modelId": "iphone17",
+          "modelName": "iPhone 17",
+          "color": "Mist Blue",
+          "storage": "512GB",
+          "name": "iPhone 17 512GB Mist Blue",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-17/6.3-inch-display-512gb-mist-blue-unlocked"
+        },
+        {
+          "partNumber": "MG474LL/A",
+          "modelId": "iphone17",
+          "modelName": "iPhone 17",
+          "color": "White",
+          "storage": "256GB",
+          "name": "iPhone 17 256GB White",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-17/6.3-inch-display-256gb-white-unlocked"
+        },
+        {
+          "partNumber": "MG4F4LL/A",
+          "modelId": "iphone17",
+          "modelName": "iPhone 17",
+          "color": "White",
+          "storage": "512GB",
+          "name": "iPhone 17 512GB White",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-17/6.3-inch-display-512gb-white-unlocked"
+        },
+        {
+          "partNumber": "MG4A4LL/A",
+          "modelId": "iphone17",
+          "modelName": "iPhone 17",
+          "color": "Sage",
+          "storage": "256GB",
+          "name": "iPhone 17 256GB Sage",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-17/6.3-inch-display-256gb-sage-unlocked"
+        },
+        {
+          "partNumber": "MG4Q4LL/A",
+          "modelId": "iphone17",
+          "modelName": "iPhone 17",
+          "color": "Sage",
+          "storage": "512GB",
+          "name": "iPhone 17 512GB Sage",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-17/6.3-inch-display-512gb-sage-unlocked"
+        },
+        {
+          "partNumber": "MG464LL/A",
+          "modelId": "iphone17",
+          "modelName": "iPhone 17",
+          "color": "Black",
+          "storage": "256GB",
+          "name": "iPhone 17 256GB Black",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-17/6.3-inch-display-256gb-black-unlocked"
+        },
+        {
+          "partNumber": "MG4E4LL/A",
+          "modelId": "iphone17",
+          "modelName": "iPhone 17",
+          "color": "Black",
+          "storage": "512GB",
+          "name": "iPhone 17 512GB Black",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-17/6.3-inch-display-512gb-black-unlocked"
+        }
+      ]
+    },
+    {
+      "id": "iphone17e",
+      "name": "iPhone 17e",
+      "colors": [
+        "Soft Pink",
+        "White",
+        "Black"
+      ],
+      "storages": [
+        "256GB",
+        "512GB"
+      ],
+      "variants": [
+        {
+          "partNumber": "MHRQ4LL/A",
+          "modelId": "iphone17e",
+          "modelName": "iPhone 17e",
+          "color": "Soft Pink",
+          "storage": "256GB",
+          "name": "iPhone 17e 256GB Soft Pink",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-17e/6.1-inch-display-256gb-soft-pink-unlocked"
+        },
+        {
+          "partNumber": "MHRU4LL/A",
+          "modelId": "iphone17e",
+          "modelName": "iPhone 17e",
+          "color": "Soft Pink",
+          "storage": "512GB",
+          "name": "iPhone 17e 512GB Soft Pink",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-17e/6.1-inch-display-512gb-soft-pink-unlocked"
+        },
+        {
+          "partNumber": "MHRP4LL/A",
+          "modelId": "iphone17e",
+          "modelName": "iPhone 17e",
+          "color": "White",
+          "storage": "256GB",
+          "name": "iPhone 17e 256GB White",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-17e/6.1-inch-display-256gb-white-unlocked"
+        },
+        {
+          "partNumber": "MHRT4LL/A",
+          "modelId": "iphone17e",
+          "modelName": "iPhone 17e",
+          "color": "White",
+          "storage": "512GB",
+          "name": "iPhone 17e 512GB White",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-17e/6.1-inch-display-512gb-white-unlocked"
+        },
+        {
+          "partNumber": "MHRN4LL/A",
+          "modelId": "iphone17e",
+          "modelName": "iPhone 17e",
+          "color": "Black",
+          "storage": "256GB",
+          "name": "iPhone 17e 256GB Black",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-17e/6.1-inch-display-256gb-black-unlocked"
+        },
+        {
+          "partNumber": "MHRR4LL/A",
+          "modelId": "iphone17e",
+          "modelName": "iPhone 17e",
+          "color": "Black",
+          "storage": "512GB",
+          "name": "iPhone 17e 512GB Black",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-17e/6.1-inch-display-512gb-black-unlocked"
+        }
+      ]
+    },
+    {
+      "id": "iphone16",
+      "name": "iPhone 16",
+      "colors": [
+        "Ultramarine",
+        "Teal",
+        "White",
+        "Pink",
+        "Black"
+      ],
+      "storages": [
+        "128GB"
+      ],
+      "variants": [
+        {
+          "partNumber": "MYAT3LL/A",
+          "modelId": "iphone16",
+          "modelName": "iPhone 16",
+          "color": "Ultramarine",
+          "storage": "128GB",
+          "name": "iPhone 16 128GB Ultramarine",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-16/6.1-inch-display-128gb-ultramarine-unlocked"
+        },
+        {
+          "partNumber": "MYAW3LL/A",
+          "modelId": "iphone16",
+          "modelName": "iPhone 16",
+          "color": "Teal",
+          "storage": "128GB",
+          "name": "iPhone 16 128GB Teal",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-16/6.1-inch-display-128gb-teal-unlocked"
+        },
+        {
+          "partNumber": "MYAQ3LL/A",
+          "modelId": "iphone16",
+          "modelName": "iPhone 16",
+          "color": "White",
+          "storage": "128GB",
+          "name": "iPhone 16 128GB White",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-16/6.1-inch-display-128gb-white-unlocked"
+        },
+        {
+          "partNumber": "MYAR3LL/A",
+          "modelId": "iphone16",
+          "modelName": "iPhone 16",
+          "color": "Pink",
+          "storage": "128GB",
+          "name": "iPhone 16 128GB Pink",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-16/6.1-inch-display-128gb-pink-unlocked"
+        },
+        {
+          "partNumber": "MYAP3LL/A",
+          "modelId": "iphone16",
+          "modelName": "iPhone 16",
+          "color": "Black",
+          "storage": "128GB",
+          "name": "iPhone 16 128GB Black",
+          "checkoutUrl": "https://www.apple.com/shop/buy-iphone/iphone-16/6.1-inch-display-128gb-black-unlocked"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://www.apple.com/shop/buy-iphone/iphone-duo",
+      "modelIds": [
+        "iphoneduo"
+      ]
+    },
+    {
+      "url": "https://www.apple.com/shop/buy-iphone/iphone-18-pro",
+      "modelIds": [
+        "iphone18pro",
+        "iphone18promax"
+      ]
+    },
+    {
+      "url": "https://www.apple.com/shop/buy-iphone/iphone-air",
+      "modelIds": [
+        "iphoneair"
+      ]
+    },
+    {
+      "url": "https://www.apple.com/shop/buy-iphone/iphone-17",
+      "modelIds": [
+        "iphone17"
+      ]
+    },
+    {
+      "url": "https://www.apple.com/shop/buy-iphone/iphone-17e",
+      "modelIds": [
+        "iphone17e"
+      ]
+    },
+    {
+      "url": "https://www.apple.com/shop/buy-iphone/iphone-16",
+      "modelIds": [
+        "iphone16"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1792773594820,
+      "tag": "0000_dazzling_thundra",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1792773726239,
+      "tag": "0001_grey_mojo",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1793020428015,
+      "tag": "0002_nostalgic_ma_gnuci",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1793128815553,
+      "tag": "0003_thick_radioactive_man",
+      "breakpoints": true
+    }
+  ]
+}

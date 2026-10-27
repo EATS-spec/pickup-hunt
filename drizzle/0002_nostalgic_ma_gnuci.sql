@@ -1,0 +1,1 @@
+ALTER TABLE `hunt_watches` ADD `completion_json` text;
