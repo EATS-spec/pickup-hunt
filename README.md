@@ -6,8 +6,6 @@ A playful iPhone pickup finder built by Shane Windt with Codex. Choose a model, 
 
 [Try the live app](https://pickup-hunt.dreaminpixels.chatgpt.site/) · [Read the case study](docs/CASE_STUDY.md)
 
-[![Verify](https://github.com/EATS-spec/pickup-hunt/actions/workflows/ci.yml/badge.svg)](https://github.com/EATS-spec/pickup-hunt/actions/workflows/ci.yml)
-
 ![Pickup Hunt: guided setup and an original illustrated phone card](docs/images/desktop.png)
 
 ## From one phone to a reusable tool
@@ -44,7 +42,7 @@ npm test
 npm run build
 ```
 
-Tests cover SQLite persistence, browser isolation, queue concurrency, backoff, encryption, native Workers requests, display receipts, and the frontend controller. CI runs tests and a production build without Apple credentials or live inventory requests.
+Tests cover SQLite persistence, browser isolation, queue concurrency, backoff, encryption, native Workers requests, display receipts, and the frontend controller. The included CI workflow is configured to run tests and a production build without Apple credentials or live inventory requests.
 
 ## Deploy your own
 
