@@ -1,0 +1,9 @@
+flowchart LR
+    Visitor["Visitor's browser"] --> App["App and API on Sites"]
+    Timer["Five-minute cloud timer"] --> App
+    App --> DB[("D1: watches, shared jobs, outbox")]
+    App --> Gate["Durable request gate"]
+    Gate --> Apple["Apple pickup availability"]
+    App --> Push["Browser push service"]
+    Push --> Worker["Device service worker"]
+    Worker -->|Display receipt| App

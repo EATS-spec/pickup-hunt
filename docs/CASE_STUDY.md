@@ -30,17 +30,9 @@ Warm paper colors and an original scout keep the hunt light. Shareable links pas
 
 ## How it works
 
-```mermaid
-flowchart LR
-    Visitor[Visitor’s browser] --> App[App and API on Sites]
-    Timer[Five-minute cloud timer] --> App
-    App --> DB[(D1: watches, shared jobs, outbox)]
-    App --> Gate[Durable request gate]
-    Gate --> Apple[Apple pickup availability]
-    App --> Push[Browser push service]
-    Push --> Worker[Device service worker]
-    Worker -->|Display receipt| App
-```
+![The browser and cloud timer call the app; D1 persists state, a request gate controls Apple queries, and Web Push returns device display receipts.](images/architecture.svg)
+
+[Open the full diagram](images/architecture.svg) · [Editable Mermaid source](architecture.mmd)
 
 Identical product-and-ZIP searches share a job. A durable gate reserves each inventory request before sending it, enforces a minimum gap, and persists backoff when Apple throttles the reader. The queue processes at most one distinct search per tick, so the interval between checks of any one search grows as more distinct searches join the queue.
 
@@ -60,7 +52,7 @@ The lesson carried into the release checks: exercise the actual runtime boundary
 
 | Scope | Verified | Evidence |
 | --- | --- | --- |
-| Public source | October 28, 2026 | **82 tests and the production build passed in [GitHub Actions](https://github.com/EATS-spec/pickup-hunt/actions/runs/40576080696/attempts/4).** |
+| Public source | October 28, 2026 | **Lint with zero warnings, 82 tests, and the production build passed in [GitHub Actions](https://github.com/EATS-spec/pickup-hunt/actions/runs/40755758677).** |
 | Hosted release | October 27, 2026 | **80 automated tests passed**, covering browser isolation, queue concurrency, backoff, notification encryption, retries, display receipts, and onboarding. |
 | Inventory check | October 27, 2026 | One hosted check returned **12 store observations**; this is a verification result, not a stock or coverage guarantee. |
 | Background delivery | October 27, 2026 | A scheduled test notification arrived after the subscribed Chrome tab was closed, and the device’s display receipt was read back. |
