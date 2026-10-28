@@ -1,16 +1,18 @@
 # Pickup Hunt
 
+[![Verify](https://github.com/EATS-spec/pickup-hunt/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/EATS-spec/pickup-hunt/actions/workflows/ci.yml)
+
 **Good phones. Worth the hunt.**
 
-A playful iPhone pickup finder built by Shane Windt with Codex. Choose a model, color, storage, ZIP code, and Apple Stores. Start a cloud watch and let a background notification bring you back when the phone is spotted.
+A playful iPhone pickup finder built by Shane Windt with Codex. Choose a model, color, storage, U.S. ZIP code, and Apple Stores. Start a cloud watch, then opt into background notifications so you can step away from the tab.
 
-[Try the live app](https://pickup-hunt.dreaminpixels.chatgpt.site/) · [Read the case study](docs/CASE_STUDY.md)
+[Try the live app](https://pickup-hunt.dreaminpixels.chatgpt.site/) · [Read the case study](docs/CASE_STUDY.md) · [Run locally](#run-locally)
 
 ![Pickup Hunt: guided setup and an original illustrated phone card](docs/images/desktop.png)
 
 ## From one phone to a reusable tool
 
-This started as a launch-day search for one phone. A sister needed a different configuration, and the script became a configurable public app. The case study follows that progression, including a production notification bug that unit tests initially missed.
+This started as a launch-day search for one phone. A second family hunt needed a different configuration, and the script became a configurable public app. The case study follows that progression, including a production notification bug that unit tests initially missed.
 
 ## What it does
 
@@ -28,6 +30,8 @@ Checkout happens at Apple. Pickup Hunt collects no Apple account credentials or 
 Requires Node.js 22.13 or newer and npm.
 
 ```sh
+git clone https://github.com/EATS-spec/pickup-hunt.git
+cd pickup-hunt
 npm ci
 npm run db:migrate
 npm run dev
@@ -38,15 +42,16 @@ Open the local URL printed by the server. The development database lives under t
 For optional local push/updater configuration, copy `.dev.vars.example` to `.dev.vars` and fill in your own values. Without push keys, the finder still loads and explains that notifications are unavailable. Apple can refuse requests from a development machine; the interface reports failures without presenting them as fresh stock.
 
 ```sh
+npm run lint
 npm test
 npm run build
 ```
 
-Tests cover SQLite persistence, browser isolation, queue concurrency, backoff, encryption, native Workers requests, display receipts, and the frontend controller. The included CI workflow is configured to run tests and a production build without Apple credentials or live inventory requests.
+Tests cover SQLite persistence, browser isolation, queue concurrency, backoff, encryption, native Workers requests, display receipts, and the frontend controller. [GitHub Actions](https://github.com/EATS-spec/pickup-hunt/actions/workflows/ci.yml) runs the same lint, test, and build commands on Node.js 22 for pushes to `main` and pull requests. These checks use fixtures and mocked inventory transport; they need no Apple credentials or live inventory requests.
 
 ## Deploy your own
 
-The live app runs on **Sites**, using a Cloudflare Worker and D1. This is a fresh public source snapshot: live Site identity, credentials, runtime records, and private Git history are excluded. Commits here do not automatically update the live demo.
+The live app runs on **Sites**, using a Cloudflare Worker and D1. This public template excludes the live Site identity, credentials, runtime records, and private Git history. Creating a copy does not deploy a Site or install a timer. Commits here do not automatically update the live demo.
 
 To deploy through Sites, register a new Site from this source, retain its returned project ID in `.openai/hosting.json`, provision the D1 binding named `DB`, and apply migrations through the normal Sites publishing workflow. Configure your own runtime values in the hosting service:
 
@@ -70,7 +75,7 @@ Open the site in Safari, choose **Share → Add to Home Screen**, then open it f
 
 ## Practical limits
 
-The Apple storefront reader is public but undocumented and can throttle or change. Five-minute timer ticks serve a shared queue and do not guarantee every search a five-minute refresh. Observed availability never reserves a phone.
+Searches use Apple's U.S. storefront. The pickup reader is public but undocumented and can throttle or change. Five-minute timer ticks serve a shared queue and do not guarantee every search a five-minute refresh. Observed availability never reserves a phone.
 
 Watches belong to a browser and do not synchronize across devices. Delivery depends on browser/device permission and connectivity. Closed-page delivery was verified in Chrome on macOS; physical iPhone delivery was not part of that verification. Email and SMS are not implemented.
 
@@ -78,14 +83,18 @@ Watches belong to a browser and do not synchronize across devices. Delivery depe
 
 | Location | Responsibility |
 | --- | --- |
-| `public/`, `app/` | Guided setup, illustrations, sharing, victory cards, and browser notifications. |
-| `lib/catalog*.mjs` | Product catalog and public seed; no bundled stock history. |
-| `lib/inventory.mjs`, `lib/hunt-service.mjs` | Parsing, watches, shared queue, and durable request gate. |
-| `lib/push.mjs`, `public/sw.js` | Private subscriptions, encrypted delivery, and display receipts. |
-| `db/`, `drizzle/` | Schema and append-only migrations. |
-| `apps-script/`, `test/` | Cloud timer and automated verification. |
+| [`public/`](public/), [`app/`](app/) | Guided setup, illustrations, sharing, victory cards, and browser notifications. |
+| [`lib/catalog.mjs`](lib/catalog.mjs), [`lib/catalog-seed.json`](lib/catalog-seed.json) | Product catalog and public seed; no bundled stock history. |
+| [`lib/inventory.mjs`](lib/inventory.mjs), [`lib/hunt-service.mjs`](lib/hunt-service.mjs) | Parsing, watches, shared queue, and durable request gate. |
+| [`lib/push.mjs`](lib/push.mjs), [`public/sw.js`](public/sw.js) | Private subscriptions, encrypted delivery, and display receipts. |
+| [`db/`](db/), [`drizzle/`](drizzle/) | Schema and append-only migrations. |
+| [`apps-script/`](apps-script/), [`test/`](test/) | Cloud timer and automated verification. |
 
 After editing markup, run `node scripts/sync-page.mjs`. The build also synchronizes the framework homepage automatically.
+
+## Contributing
+
+Have an idea or found a bug? The [contributing guide](CONTRIBUTING.md) explains the local workflow and what to include in a useful issue or pull request.
 
 ## License and credits
 

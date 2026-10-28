@@ -1,0 +1,39 @@
+name: Bug report
+description: Help us fix a hunt that went sideways.
+title: "Bug: "
+body:
+  - type: markdown
+    attributes:
+      value: "Thanks for helping improve Pickup Hunt. Keep credentials, push subscription endpoints, and checkout information out of this report."
+  - type: textarea
+    id: behavior
+    attributes:
+      label: What happened?
+      description: Describe what you expected and what the app did instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Include the phone configuration and store names if relevant. Example hunt details are fine.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Browser and device
+      placeholder: "For example: Safari on iPhone, opened from the Home Screen"
+  - type: dropdown
+    id: installation
+    attributes:
+      label: Where did it happen?
+      options:
+        - Live demo
+        - Local development
+        - My own deployment
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshots or observation details
+      description: For stock or notification issues, include the observation time and any stale, queued, or error message shown by the app.
